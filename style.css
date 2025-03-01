@@ -1668,6 +1668,31 @@ input[type="radio"] {
     display: none;
 }
 
+#syllabus-content-courses{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+#syllabus-content-courses div{
+    border: 2px solid red;
+    height: 200px;
+    width: 20%;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#syllabus-content-courses div h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bolder;
+}
+
 
 
 
